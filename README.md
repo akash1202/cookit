@@ -7,11 +7,11 @@ Rest Api sample shows how to deploy [SpringBoot](http://projects.spring.io/sprin
 
 Installed:   
 [Docker](https://www.docker.com/)   
-[git](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)   
+[git](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
+[curl](https://curl.se/download.html)
 
 Optional:   
-[Docker-Compose](https://docs.docker.com/compose/install/)   
-[Java 1.8 or](https://www.oracle.com/technetwork/java/javase/overview/index.html)   
+[Java 1.8](https://www.oracle.com/technetwork/java/javase/overview/index.html)   
 [Maven 3.x](https://maven.apache.org/install.html)
 
 #### Steps
@@ -33,8 +33,8 @@ Maven build will be executed during creation of the docker image.
 ```
 $ docker run -p 8080:8080 docker-cookit
 ```
-
-##### Test application
+in above command port number pattern is like => host's(current machine) port : container's internal port 
+##### Test application Urls
 
 ```
 1.$ curl localhost:8080/items
